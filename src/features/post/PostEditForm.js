@@ -27,7 +27,6 @@ function PostEditForm({ post, handleModalClose, handleClose }) {
 
   const {
     handleSubmit,
-    reset,
     setValue,
     formState: { isSubmitting },
   } = methods;
